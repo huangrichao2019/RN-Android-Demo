@@ -2,8 +2,8 @@
 只有Android部分集成了无埋点SDK与触达SDK
 
 ## 集成步骤
-先按这篇文档集成android 无埋点SDK部分 https://docs.growingio.com/docs/sdk-integration/react-native-wu-mai-dian-sdk/
-再按
+- 先按这篇文档集成android无埋点SDK https://docs.growingio.com/docs/sdk-integration/react-native-wu-mai-dian-sdk/
+- 再按这篇文档集成android触达SDK(注意顺序，触达SDK依赖无埋点SDK) https://shimo.im/docs/NpMKr1mstNcnZRkl/read
 
 编译项目环境 根目录下
   npm install 
