@@ -1,10 +1,13 @@
 # RN-Android-Demo
-只有Android部分集成了无埋点SDK与触达SDK
+只集成了Android部分的无埋点SDK与触达SDK
 
 ## 集成步骤
+- 这个项目已经全部集成好，本地可以直接跑
 - 先按这篇文档集成android无埋点SDK https://docs.growingio.com/docs/sdk-integration/react-native-wu-mai-dian-sdk/
 - 再按这篇文档集成android触达SDK(注意顺序，触达SDK依赖无埋点SDK) https://shimo.im/docs/NpMKr1mstNcnZRkl/read
 
+
+## 本地跑的步骤
 编译项目环境 根目录下
   npm install 
 运行iOS部分 根目录下
