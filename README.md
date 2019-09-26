@@ -3,7 +3,7 @@
 
 ## 集成步骤
 - 这个项目已经全部集成好Android部分的两种SDK，git clone后本地可以直接跑
-- 先按这篇文档集成android无埋点SDK https://docs.growingio.com/docs/sdk-integration/react-native-wu-mai-dian-sdk/
+- 集成方式是先按这篇文档集成android无埋点SDK https://docs.growingio.com/docs/sdk-integration/react-native-wu-mai-dian-sdk/
 - 再按这篇文档集成android触达SDK(注意顺序，触达SDK依赖无埋点SDK) https://shimo.im/docs/NpMKr1mstNcnZRkl/read
 
 
