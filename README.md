@@ -9,15 +9,15 @@
 
 ## 本地跑的步骤
 
-编译项目环境 根目录下
+编译项目环境 项目根目录下
   ```
   npm install 
 ```
-运行iOS部分 根目录下
+运行iOS部分 项目根目录下
   ```
   react-native run-ios --simulator="iPhone 8"
   ```
-运行Andorid部分 先用AS打开/android这个目录，Sync一下项目，加载需要的依赖，再回到根目录下
+运行Andorid部分 先用AS打开/android这个目录，Sync一下项目，加载需要的依赖，再回到项目根目录下
   ```
   react-native run-android 报错说没有模拟器的话建议直接在AS里run项目
 ```
