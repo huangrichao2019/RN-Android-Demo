@@ -12,6 +12,11 @@
 编译项目环境 项目根目录下
   ```
   npm install 
+  
+```
+启动react-native server
+```
+react-native start
 ```
 运行iOS部分 项目根目录下
   ```
