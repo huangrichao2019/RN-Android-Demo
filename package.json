@@ -3,13 +3,15 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "postinstall": "node node_modules/react-native-autotrack-growingio/hook.js -run",
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
     "react": "16.8.3",
     "react-native": "0.59.9",
-    "react-native-autotrack-growingio": "0.0.6"
+    "react-native-autotrack-growingio": "0.0.6",
+    "react-native-growing-touch": "0.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.0",

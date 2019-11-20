@@ -15,3 +15,28 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
+
+# GIO RN 控件混淆代码，不添加则会造成点击事件采集失败
+-keep class com.facebook.react.uimanager.JSTouchDispatcher{
+    *;
+}
+-keep class com.growingio.** {
+    *;
+}
+-dontwarn com.growingio.**
+-keepnames class * extends android.view.View
+-keepnames class * extends android.app.Fragment
+-keepnames class * extends android.support.v4.app.Fragment
+-keepnames class * extends androidx.fragment.app.Fragment
+-keep class android.support.v4.view.ViewPager{
+    *;
+}
+-keep class android.support.v4.view.ViewPager$**{
+	*;
+}
+-keep class androidx.viewpager.widget.ViewPager{
+    *;
+}
+-keep class androidx.viewpager.widget.ViewPager$**{
+	*;
+}

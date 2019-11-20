@@ -13,8 +13,8 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:3.4.0"
-        classpath "com.growingio.android:vds-gradle-plugin:RN-autotrack-2.8.2"
+        classpath 'com.android.tools.build:gradle:3.5.1'
+        classpath "com.growingio.android:vds-gradle-plugin:RN-autotrack-2.8.6"
 
 
         // NOTE: Do not place your application dependencies here; they belong

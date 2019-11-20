@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 import { Alert, Button, StyleSheet, View } from 'react-native';
+import GrowingTouch from 'react-native-growing-touch';
 
 export default class ButtonBasics extends Component {
   _onPressButton() {
     Alert.alert('You tapped the button!')
+  }
+  _init(){
+    // GrowingTouch
   }
 
   render() {

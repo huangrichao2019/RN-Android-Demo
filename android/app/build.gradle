@@ -107,8 +107,8 @@ android {
         versionCode 1
         versionName "1.0"
 
-            resValue("string", "growingio_project_id", "a1487504adb3e86c")
-    resValue("string", "growingio_url_scheme", "growing.abac40e3b662b6a5")
+        resValue("string", "growingio_project_id", "a1487504adb3e86c")
+        resValue("string", "growingio_url_scheme", "growing.abac40e3b662b6a5")
     }
     splits {
         abi {
@@ -130,12 +130,13 @@ android {
         implementation fileTree(dir: "libs", include: ["*.jar"])
         implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"
         implementation "com.facebook.react:react-native:+"  // From node_modules
-        implementation 'com.growingio.android:vds-android-agent:RN-autotrack-2.8.2@aar'
+        implementation 'com.growingio.android:vds-android-agent:RN-autotrack-2.8.6@aar'
 
         //由于触达底层网络库依赖OkHttp3网络库，请添加OkHttp3依赖
         implementation "com.squareup.okhttp3:okhttp:3.12.1"
         //触达SDK依赖
-        implementation "com.growingio.android:gtouch:0.4.0"
+        implementation project(':react-native-growing-touch')
+
 
     }
 
