@@ -4801,9 +4801,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npm.taobao.org/qs/download/qs-6.5.2.tgz?cache=0&sync_timestamp=1569207136481&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fqs%2Fdownload%2Fqs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 randomatic@^3.0.0:
   version "3.1.1"
@@ -4851,6 +4851,16 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   version "16.9.0"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.9.0.tgz#21ca9561399aad0ff1a7701c01683e8ca981edcb"
   integrity sha1-IcqVYTmarQ/xp3AcAWg+jKmB7cs=
+
+react-native-autotrack-growingio@0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/react-native-autotrack-growingio/-/react-native-autotrack-growingio-0.0.6.tgz#48f993bf38ee19e3bfbb163f25090eb8c256c557"
+  integrity sha512-eIeQu0EJUo4r3SpVh3AwP7GnK/Q/Icz1WotuOhCHigO1zraCgKoNBRFNe5qARfX0GnKzX+hdyTCcL8WruUi3FA==
+
+react-native-growing-touch@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-growing-touch/-/react-native-growing-touch-0.0.2.tgz#77a0c25ac0919e0045cc41e5916ce2f8235e274a"
+  integrity sha512-clVtdKyuwus5yJBcpiIBb88u+fN8iOGeg/2k5KRrY2bzyHSq841Itv8lDYBHPtGexNwiXiGM1LWMav4RCtQm4A==
 
 react-native@0.59.9:
   version "0.59.9"
